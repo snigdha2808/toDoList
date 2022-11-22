@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Poppins:wght@300&family=Raleway:wght@300;500&family=Ubuntu:wght@700&display=swap');
+
+
+      *{
+          padding : 0px;
+          margin : 0px;
+      }
+      body{
+          background :#FFB9B9;
+          transition : 2s;
+      }
+      .box{
+          width : 500px;
+          height : 500px;
+          background color: yellow;
+          margin : auto;
+          top : 200px;
+          overflow-Y : auto;
+          box-shadow : 5px 15px 8px black;
+
+      }
+      .entry{
+          width : 85%;
+          margin : 5%;
+          height : 20px;
+          outline : none;
+          color : black;
+          border : none;
+          background : #00000;
+          padding : 10px;
+          box-shadow : 1px 2px 5px black;
+          font-size : 15px;
+      }
+
+      .tobox li{
+          margin : 1% 5%;
+          width : 85%;
+          height : 40px;
+          font-size : 20px;
+          list-style-type: none;
+          color : white;
+          background : transparent ;
+          position : relative;
+          text-align : justify;
+          font-weight: bold;
+          padding : 10px;
+          font-family : ubuntu;
+          box-shadow : 2px 2px 3px black;
+
+      }
+      .fa-solid{
+          position : absolute;
+          right : 5px;
+          top : 2px;
+          margin : 2px;
+          cursor : pointer;
+      }
+      .tobox{
+          list-style : none;
+          margin-top : 10px;
+      }
+      .done{
+          background : purple !important;
+          text-decoration : line-through;
+          color : white;
+      }
+      .title{
+          font-size : 50px;
+          text-align : center;
+          width : 100%;
+          font-family : ubuntu;
+          font-weight : bold;
+          color : white;
+          text-shadow : 3px 10px 3px black;
+      }
+      .color{
+
+          width : 20px;
+          height : 20px;
+          border-radius : 50%;
+          background : #c64c26;
+          margin : 10px;
+          display : inline-block;
+          bottom : 15px;
+          transition : 2s;
+          box-shadow : 2px 2px 2px black;
+      }
+      .skyblue{
+          background : skyblue;
+      }
+      .pink{
+          background : pink;
+      }
+      .black{
+          background : rgb(81, 182, 45);
+      }
+      .crimson{
+          background : crimson;
+      }
+@media (max-width : 700px){
+
+  .box{
+      width : 90%;
+      height : 700px;
+  }
+  .color{
+      margin-top : 30px;
+  }
+  .title{
+      font-size : 30px;
+  }
+}
